@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="indonesian_food">Indonesian Food</string>
+    <string name="search">Search...</string>
+    <string name="popular_this_week">Popular this Week</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="rendang">Rendang</string>
+    <string name="_4_5">4.5</string>
+    <string name="food_image">Food Image</string>
+    <string name="rating_star_image">Rating Star Image</string>
+    <string name="_160">160</string>
+    <string name="_45_mins">45 mins</string>
+    <string name="free_drelivery">Free Drelivery</string>
+</resources>

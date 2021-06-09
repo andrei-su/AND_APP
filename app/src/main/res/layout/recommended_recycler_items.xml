@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="270dp"
+    android:layout_marginStart="16dp"
+    android:background="@drawable/recycler_bg7">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/food_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/popular4" />
+
+    <TextView
+        android:id="@+id/recommended_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/rendang"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:contentDescription="@string/rating_star_image"
+        app:layout_constraintStart_toStartOf="@id/recommended_name"
+        app:layout_constraintTop_toBottomOf="@id/recommended_name"
+        app:srcCompat="@drawable/ic_star" />
+
+    <TextView
+        android:id="@+id/recommended_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/_4_5"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView5"
+        app:layout_constraintStart_toEndOf="@id/imageView5"
+        app:layout_constraintTop_toTopOf="@id/imageView5" />
+
+    <TextView
+        android:id="@+id/recommended_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/_160"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/recommended_delivery_time"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/time_bg"
+        android:gravity="center"
+        android:text="@string/_45_mins"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@id/imageView5"
+        app:layout_constraintTop_toBottomOf="@id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/free_drelivery"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/recommended_delivery_time"
+        app:layout_constraintStart_toEndOf="@id/recommended_delivery_time"
+        app:layout_constraintTop_toTopOf="@id/recommended_delivery_time" />
+</androidx.constraintlayout.widget.ConstraintLayout>
